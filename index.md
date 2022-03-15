@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Boom Percussion
 
 You can use the [editor on GitHub](https://github.com/Salomon-mtz/API.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
