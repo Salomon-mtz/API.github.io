@@ -1,0 +1,210 @@
+/* Fonts */
+
+@font-face {
+    font-family: Atarian;
+    src: url(/Fonts/sf_atarian_system-webfont.woff);
+  }
+  @font-face {
+    font-family: AtarianBold;
+    src: url(/Fonts/sf_atarian_system_bold-webfont.woff);
+  }
+  @font-face {
+    font-family: AtarianItalic;
+    src: url(/Fonts/sf_atarian_system_bold_italic-webfont.woff);
+  }
+  
+  a.nav-link{
+    font-family: AtarianBold;
+    font-size: 25px;
+    color: #F1802D;
+  }
+  
+  a.nav-link:hover{
+    font-family: AtarianBold;
+    font-size: 25px;
+    color: #913c00;
+  }
+  
+  article h1.title{
+    font-family: AtarianBold;
+    font-size: 80px;
+  }
+
+  article .card-title{
+    font-family: AtarianBold;
+    font-size: 25px;
+  }
+
+  article .card-text{
+    font-family: Atarian;
+    font-size: 15px;
+  }
+  
+  article p.text{
+    font-family: Atarian;
+    font-size: 30px;
+    text-align: justify;
+  }
+
+  table .subtitle{
+    font-family: AtarianBold;
+    font-size: 25px;
+  }
+
+  table .table-text{
+    font-family: Atarian;
+    font-size: 20px;
+  }
+  
+  /* Fonts */
+  
+  
+  
+  
+  
+  /* Footer */
+  
+  footer {
+    background-color:#123740;
+    color: #ffffff; 
+    margin-top: 20px;
+    font-family: Atarian;
+    font-size: 20px;
+  }
+  
+  footer .row{
+    justify-content: space-between;
+  }
+  div.text-center.row.d-flex{
+    max-width: 100%;
+  }
+  
+  /* Footer */
+  
+  
+  
+  
+  
+  /* Article */
+  
+  article .row{
+    justify-content: center;
+  }
+
+  div button.btn{
+    background-color: #B0D7E1;
+    border-radius: 15px;
+    font-family: AtarianBold;
+    font-size: 30px;
+    color: #549AAB;
+    border: 0px;
+  }
+  
+  /* Article */
+  
+  
+  
+  
+  
+  /* Navbar */
+  
+  nav.navbar{
+    background-color: #123740;
+  }
+  .navbar-nav .nav-item-current {
+    font-weight: bolder;
+    border-radius: 25px;
+    background-color: #243f46;
+    padding: 1px 1px 1px 1px; 
+  }
+  
+  nav #navbarSupportedContent{
+    justify-content: center;
+  }
+  
+  nav li.nav-item{
+    margin-right: 50px;
+  }
+  
+  nav li.nav-item-current{
+    margin-right: 50px;
+  }
+  
+  nav a.btn:hover{
+    color: #2c4e57;
+  }
+  
+  /* Navbar */
+  
+  
+  
+  
+  
+  /* Photos */
+  
+  .logo{
+    width: 70px;
+    margin-left: 20px;
+  }
+  
+  /* Photos */
+  
+  
+  
+  
+  /* Containers */
+  
+  article.container.row{
+    margin: 0 auto;
+  }
+  
+  div.transition{
+    margin-bottom: 70px;
+  }
+
+  /* Containers */
+  
+  
+  
+  
+    
+
+  /* Transitions */
+  
+  .transition{
+    animation: transitionIn 1.5s;
+  }
+  
+  @keyframes transitionIn{
+    from{
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+  
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  
+  /* Transitions */
+  
+  
+  
+  
+  /* Cards */
+  
+  div.card{
+    width: 466px;
+  }
+  
+  div.card.card-1, .card-3{
+    margin-right: 20px;
+  }
+  
+  div.row.row-1{
+    margin-bottom: 20px;
+  }
+  
+  /* Cards */
+  
