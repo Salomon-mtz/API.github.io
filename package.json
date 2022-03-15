@@ -1,0 +1,23 @@
+{
+  "name": "api.github.io",
+  "version": "1.0.0",
+  "description": "API Boom Percussion Game",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server" },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salomon-mtz/API.github.io.git"
+  },
+  "author": "Boom Percussion Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salomon-mtz/API.github.io/issues"
+  },
+  "homepage": "https://github.com/Salomon-mtz/API.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
