@@ -1,0 +1,40 @@
+{
+    "topPlayers": {
+      "player1": {
+        "gamertag": "BoomGamer1",
+        "positionRanking": 1,
+        "topScore": 250,
+        "level": 2
+      },
+      "player2": {
+        "gamertag": "BoomGamer2",
+        "positionRanking": 2,
+        "topScore": 200,
+        "level": 2
+      },
+      "": {},
+      "player3": {
+        "gamertag": "BoomGamer3",
+        "positionRanking": 3,
+        "topScore": 150,
+        "level": 2
+      }
+    },
+    "topTimes": {
+      "player1": {
+        "gamertag": "BoomGamer1",
+        "positionRanking": 1,
+        "bestTime": 1000
+      },
+      "player2": {
+        "gamertag": "BoomGamer2",
+        "positionRanking": 2,
+        "bestTime": 1200
+      },
+      "player3": {
+        "gamertag": "BoomGamer3",
+        "positionRanking": 3,
+        "bestTime": 1400
+      }
+    }
+  }
