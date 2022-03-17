@@ -1,0 +1,15 @@
+{
+  "registerDate": "1647397460",
+  "player": {
+    "gamertag": "BoomGamer1",
+    "name": "Arturo",
+    "lastname": "Alfaro",
+    "email": "arturo@example.com",
+    "password": "******",
+    "registered": true
+  },
+  "game": {
+    "level": 2,
+    "timePlayed": 2500
+  }
+}

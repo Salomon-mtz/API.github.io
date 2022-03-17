@@ -27,7 +27,7 @@
   
   article h1.title{
     font-family: AtarianBold;
-    font-size: 80px;
+    font-size: 50px;
   }
 
   article .card-title{
@@ -37,7 +37,7 @@
 
   article .card-text{
     font-family: Atarian;
-    font-size: 15px;
+    font-size: 20px;
   }
   
   article p.text{
@@ -67,7 +67,6 @@
   footer {
     background-color:#123740;
     color: #ffffff; 
-    margin-top: 20px;
     font-family: Atarian;
     font-size: 20px;
   }
@@ -100,6 +99,21 @@
     border: 0px;
   }
   
+  a.btn{
+    background-color: #B0D7E1;
+    border-radius: 15px;
+    font-family: AtarianBold;
+    font-size: 20px;
+    color: #549AAB;
+  }
+
+  a.btn.page{
+    background-color: #B0D7E1;
+    border-radius: 15px;
+    font-family: AtarianBold;
+    font-size: 50px;
+    color: #549AAB;
+  }
   /* Article */
   
   
@@ -146,6 +160,10 @@
     width: 70px;
     margin-left: 20px;
   }
+
+  .boom-perc{
+    max-width: 50%;
+  }
   
   /* Photos */
   
@@ -157,11 +175,18 @@
   article.container.row{
     margin: 0 auto;
   }
-  
-  div.transition{
+
+  section.container{
     margin-bottom: 70px;
   }
 
+  section#api.container{
+    margin-top: 30px;
+  }
+
+  article.boton{
+    margin-top: 20px;
+  }
   /* Containers */
   
   
