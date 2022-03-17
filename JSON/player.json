@@ -1,6 +1,5 @@
 {
     "registerDate": "mar/17/22",
-    "player": {
       "gamertag": "BoomGamer1",
       "name": "Arturo",
       "lastname": "Alfaro",
@@ -8,5 +7,4 @@
       "password": "******",
       "level": 2,
       "timePlayed": 2500
-    }
-  }
+}
