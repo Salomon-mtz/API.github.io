@@ -109,7 +109,10 @@
               <img class="card-img-top" src="/Images/player.svg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Player</h5>
-                <p class="card-text">Aqui se incluyen los datos del jugador como su id, el nombre, apellido, el correo, su contraseña y la fecha en la que hizo el registro.</p>
+                <p class="card-text">
+                  Por medio de un verbo GET, se toman como parametros el Gamertag y la contraseña del jugador. 
+                  De modo que la salida sea un archivo JSON que incluye una fecha de registro, el gamertag, nombre, 
+                  apellido, correo, contraseña, nivel y tiempo total jugado.</p>
                 <div class="text-end">
                   <a role="button" class="btn" href="/JSON/player.json" target="_blank">Ver mas</a>
                 </div>
@@ -120,7 +123,10 @@
               <img class="card-img-top" src="/Images/rank.svg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Global Ranking</h5>
-                <p class="card-text">Aqui se incluyen los top 3 jugadores que mejor desempeño han tenido en el juego. Sus top scores y los jugadores que han terminado los 4 niveles del juego en un menor tiempo.</p>
+                <p class="card-text">
+                  Por medio de un verbo GET, se despliegan los parametros en la pagina web del videojuego en la seccion de ranking global. 
+                  Generando como salida un archivo JSON que incluye al top 3 de jugadores con scores mas altos y el top 3 de mejores tiempos en 
+                  terminar el juego.</p>
                 <div class="text-end">
                   <a role="button" class="btn" href="/JSON/global.json" target="_blank">Ver mas</a>
                 </div>
@@ -133,7 +139,10 @@
               <img class="card-img-top" src="/Images/my.svg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Personal Stats</h5>
-                <p class="card-text">Aqui se incluyen los datos del perfil del jugador una vez que ya haya creado registros en el juego. Es decir, muestra sus estadisticas	para medir el desempeño y aprendizaje del jugador.</p>
+                <p class="card-text">
+                  Por medio de un verbo GET, se toma como parametro el Gamertag del jugador y se genera un archivo JSON que contiene 
+                  el Gamertag, su posicion en el ranking global, su top score, su nivel, su mejor tiempo en terminar un nivel y la fecha en
+                  que se hizo el registro en la pagina. </p>
                 <div class="text-end">
                   <a role="button" class="btn" href="/JSON/personal.json" target="_blank">Ver mas</a>
                 </div>
